@@ -18,7 +18,7 @@ Find essential matrix by findEssentialMat(). It internally uses 5-point algorith
 	2) Generate E(Hypothesis) and evaluate using other points with pre-defined threshold – epipolar distance
 	3) Iterate 1)~2) for hypothesis candidates
 	4) Choose the most supportive hypothesis E having the most inliers
-	5) By applying overall procedure which is called RANSAC(RANdom SAmple Consensus), we can effectively reject outliers
+	5) By applying overall procedure which is called RANSAC, we can effectively reject outliers
 
 ---
 
@@ -50,36 +50,36 @@ While conducting visualization of 3D reconstruction several times, I adjusted fe
 
 | ![2](save/matches(0.6).jpg) |
 |:---:|
-| ![3](save/reconstructed_color(0.6).jpg) |
+| ![3](save/reconstructed_color(0.6).png) |
 | FACTOR = 0.6 |
 
 | ![4](save/matches(0.7).jpg) |
 |:---:|
-| ![5](save/reconstructed_color(0.7).jpg) |
+| ![5](save/reconstructed_color(0.7).png) |
 | FACTOR = 0.7 |
 
 | ![6](save/matches(0.8).jpg) |
 |:---:|
-| ![7](save/reconstructed_color(0.8).jpg) |
+| ![7](save/reconstructed_color(0.8).png) |
 | FACTOR = 0.8 |
 
 | ![8](save/matches(0.9).jpg) |
 |:---:|
-| ![9](save/reconstructed_color(0.9).jpg) |
+| ![9](save/reconstructed_color(0.9).png) |
 | FACTOR = 0.9 |
 
 ### Multiple views of result
-| ![10](save/reconstructed_color_front(0.7).jpg) | front view |
+| ![10](save/reconstructed_color_front(0.7).png) | front view |
 |:---:|:---:|
-| ![11](save/reconstructed_color_left(0.7).jpg) | side(left) view |
-| ![12](save/reconstructed_color_top(0.7).jpg) | top view |
+| ![11](save/reconstructed_color_left(0.7).png) | **side(left) view** |
+| ![12](save/reconstructed_color_top(0.7).png) | **top view** |
 
 ### Using own data
 Image(left) was taken on Iphone X. 3D Reconstruction(right) shows 3 separated objects quite well.
 
 | ![13](save/matches_listerine.jpg) | feature matching |
 |:---:|:---:|
-| ![14](save/reconstructed_listerine.jpg) | reconstructed |
+| ![14](save/reconstructed_listerine.png) | **reconstructed** |
 
 ## References
 | No. | References |
