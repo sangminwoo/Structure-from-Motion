@@ -48,24 +48,38 @@ $ python main.py --factor $FACTOR
 ### 3D reconstruction results
 While conducting visualization of 3D reconstruction several times, I adjusted feature matching factor. By sweeping the factor from 0.6 to 0.9 by 0.1, result shows that factor 0.7 satisfies both conditions best - 1) rejecting outliers well 2) shows recognizable reconstruction result  
 
-| ![2](save/matches(0.6).jpg) | ![3](save/reconstructed_color(0.6).jpg) |  |
-|:---:|:---:|:---:|
-| front view | side(left) view | top view |
-| ![4](save/matches(0.7).jpg) | ![5](save/reconstructed_color(0.7).jpg) |  |
-| ![6](save/matches(0.8).jpg) | ![7](save/reconstructed_color(0.8).jpg) |  |
-| ![8](save/matches(0.9).jpg) | ![9](save/reconstructed_color(0.9).jpg) |  |
+| ![2](save/matches(0.6).jpg) |
+|:---:|
+| ![3](save/reconstructed_color(0.6).jpg) |
+| FACTOR = 0.6 |
+
+| ![4](save/matches(0.7).jpg) |
+|:---:|
+| ![5](save/reconstructed_color(0.7).jpg) |
+| FACTOR = 0.7 |
+
+| ![6](save/matches(0.8).jpg) |
+|:---:|
+| ![7](save/reconstructed_color(0.8).jpg) |
+| FACTOR = 0.8 |
+
+| ![8](save/matches(0.9).jpg) |
+|:---:|
+| ![9](save/reconstructed_color(0.9).jpg) |
+| FACTOR = 0.9 |
 
 ### Multiple views of result
-| ![10](save/reconstructed_color_front(0.7).jpg) | ![11](save/reconstructed_color_left(0.7).jpg) | ![12](save/reconstructed_color_top(0.7).jpg) |
-|:---:|:---:|:---:|
-| front view | side(left) view | top view |
+| ![10](save/reconstructed_color_front(0.7).jpg) | front view |
+|:---:|:---:|
+| ![11](save/reconstructed_color_left(0.7).jpg) | side(left) view |
+| ![12](save/reconstructed_color_top(0.7).jpg) | top view |
 
 ### Using own data
 Image(left) was taken on Iphone X. 3D Reconstruction(right) shows 3 separated objects quite well.
 
-| ![13](save/matches_listerine.jpg) | ![14](save/reconstructed_listerine.jpg) |
+| ![13](save/matches_listerine.jpg) | feature matching |
 |:---:|:---:|
-| feature matching | reconstructed |
+| ![14](save/reconstructed_listerine.jpg) | reconstructed |
 
 ## References
 | No. | References |
